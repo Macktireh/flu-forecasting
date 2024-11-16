@@ -14,18 +14,13 @@ Analyse mensuelle Google : nombre de demandes liées à la grippe depuis 2004.
 
 ### Evaluation
 
-Les pages d'évaluation décrivent comment les soumissions seront notées et comment les
-étudiants devraient formater leurs soumissions.
-La métrique d'évaluation pour cette compétition est l'erreur fondamentale moyenne,
+La métrique d'évaluation pour ce projet est l'erreur fondamentale moyenne,
 couramment utilisée pour évaluer l'exactitude de la prédiction dans un problème de
 régression. Le RMSE est donné par :
 
 <p align="center">
   <img src="https://github.com/user-attachments/assets/e1331ded-bdb3-4fcf-aca8-3c29556a5476" />
 </p>
-
-Ou yi et y^i correspond au taux d'influenza réel et prévu (pour 100 000 habitants),
-respectivement.
 
 ### Format de soumission
 
