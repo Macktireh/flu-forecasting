@@ -43,7 +43,7 @@ Le fichier doit contenir un en-tête et avoir le format suivant :
 - **RequetesGoogleParRegion.zip** : un fichier zip contenant plusieurs fichiers .csv de certains Google analytics, un pour chaque région de France pour la période d’intérêt 2004 à 2016 - Ces analyses représentent l’intérêt de recherche (relatif et normalisé) obtenu de GoogleTrends pour différents mots-clés liés à la grippe en français : a) grippe b) grippe -aviaire -vaccin (- signifie sans) c) grippe -aviaire -vaccin -porcine -H1N1 -AH1N1 -A -mexicaine -Mexique -pandemie
 - **estim-pop-areg-sexe-gca-1975-2015.xls** : Ensemble de données de l’Insee (http://www.insee.fr/fr/themes/detail.asp?reg_id=99&ref_id=estim-pop) qui permet d’estimer le nombre d’individus par Région dans différentes tranches d’âge, par sexe pour chaque année de 1975 à 2015.
 
-### Champs de données dans les fichiers train/test
+#### Champs de données dans les fichiers train/test
 
 - **Id** : un identifiant unique pour chaque entrée dans les deux fichiers
 - **week** : le numéro de semaine d’une année spécifique - format YYYYWW - par exemple 201402 correspondent à la deuxième semaine de 2014 et 201531 à la 31e semaine de 2015,
